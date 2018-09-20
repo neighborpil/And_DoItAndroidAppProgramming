@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WidgetTests</string>
+    <string name="person_name">홍홍홍</string>
+    <string name="ask_name">사용자 이름을 입려하세요</string>
+</resources>

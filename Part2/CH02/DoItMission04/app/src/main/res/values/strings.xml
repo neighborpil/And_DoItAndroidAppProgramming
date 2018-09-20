@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DoItMission04</string>
+    <string name="send">전송</string>
+    <string name="close">닫기</string>
+</resources>
