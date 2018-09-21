@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MenuActivity extends AppCompatActivity {
 
@@ -52,6 +53,7 @@ public class MenuActivity extends AppCompatActivity {
 
     @Override
     protected void onNewIntent(Intent intent) {
+        Toast.makeText(getApplicationContext(), "onNetIntent", Toast.LENGTH_LONG).show();
         processIntent(intent);
     }
 }
