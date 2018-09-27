@@ -45,5 +45,11 @@
         android:layout_height="wrap_content"
         android:onClick="onButton2Clicked"
         android:text="Button" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스낵바 실행"
+        android:onClick="onButton3Clicked"/>
 
 </LinearLayout>
