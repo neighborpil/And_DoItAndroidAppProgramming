@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SampleDialog</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="cancel">취소</string>
+    <string name="button">버튼</string>
+
 </resources>

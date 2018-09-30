@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setTitle("안내");
         builder.setMessage("종료하시겠습니까?");
         builder.setIcon(android.R.drawable.ic_dialog_alert);
-        builder.setPositiveButton("예", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 String message = "예 버튼을 눌렀습니다.";
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        builder.setNeutralButton("취소", new DialogInterface.OnClickListener() {
+        builder.setNeutralButton(R.string.cancel, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 String message = "취소 버튼을 눌렀습니다";
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        builder.setNegativeButton("아니오", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 String message = "아니오 버튼을 눌렀습니다";
