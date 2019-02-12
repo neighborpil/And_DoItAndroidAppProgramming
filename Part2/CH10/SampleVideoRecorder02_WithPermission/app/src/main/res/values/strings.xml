@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SampleVideoRecorder02_WithPermission</string>
+    <string name="startvideo">Start Video</string>
+    <string name="stopvideo">Stop Video</string>
+    <string name="openmap">Open Map</string>
+    <string name="closemap">Close Map</string>
+    <string name="next">Next</string>
+</resources>
